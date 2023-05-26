@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace tests;
 
-use Tkachikov\CodeGenerator;
 use PHPUnit\Framework\TestCase;
+use Tkachikov\CodeGenerator\CodeGenerator;
 
 final class CodeGeneratorTest extends TestCase
 {
@@ -71,7 +71,7 @@ final class CodeGeneratorTest extends TestCase
      *
      * @dataProvider codes
      *
-     * @param string     $hasCode
+     * @param string $hasCode
      * @param int|string $equalCode
      *
      * @return void
@@ -86,7 +86,7 @@ final class CodeGeneratorTest extends TestCase
      *
      * @dataProvider codesNotEquals
      *
-     * @param string     $hasCode
+     * @param string $hasCode
      * @param int|string $equalCode
      *
      * @return void
