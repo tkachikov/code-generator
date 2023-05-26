@@ -1,8 +1,11 @@
 {
     "name": "tkachikov/code-generator",
+    "description": "Package for generate codes",
+    "keywords": ["code", "generate", "helper"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tkachikov\\": "src/"
+            "Tkachikov\\CodeGenerator": "src/"
         }
     },
     "authors": [
